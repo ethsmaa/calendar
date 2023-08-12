@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <link rel='stylesheet' href='index.css'>
+</head>
+
+<body>
+
+<div class='container'>
+  <div>
+    <p class='baslik'>CALENDAR</p>
+    <form onsubmit='return showCalendar()'>
+      <label for='month'>ay girin:</label><br>
+      <input type='number' id='month' name='month' required><br>
+      <label for='year'>yil girin:</label><br>
+      <input type='number' id='year' name='year' required><br>
+      <input type='submit' value='takvim'><br>
+    </form>
+  </div>
+
+  <div id='calendar'></div>
+</div>
+</body>
+<script src='App.js'></script>
+</html>
